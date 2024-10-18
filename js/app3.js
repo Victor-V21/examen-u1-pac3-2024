@@ -17,6 +17,9 @@ if ( year % 4 === 0 && !(year % 100 === 0))
     bisiesto = true
 }
 
+
+console.log(`Año ingresado: ${year}`);
+
 if (bisiesto){
     console.log('El año que ingreso es BISIESTO');
 }else{
